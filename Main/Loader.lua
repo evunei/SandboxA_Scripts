@@ -21,7 +21,9 @@ local _ISDEBUG = _RUNSERVICE:IsStudio()
 
 --[[ Functions ]]--
 local function Run()
-  print("Testing String.")
+  if _ISDEBUG then
+    print("Testing String.")
+  end
 end
 --[[ Events ]]--
 Run()
