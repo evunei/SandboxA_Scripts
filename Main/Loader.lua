@@ -9,7 +9,7 @@ local _SERVERLOADER = 'https://raw.githubusercontent.com/evunei/SandboxA_Scripts
 local _CLIENTLOADER = 'https://raw.githubusercontent.com/evunei/SandboxA_Scripts/main/Client/Client.lua'
 
 --[[ Services ]]--
-local _HTTPSERVICE = game:GetService("HTTPService")
+local _HTTPSERVICE = game:GetService("HttpService")
 local _INSERTSERVICE = game:GetService("InsertService")
 local _REPLICATEDSTORAGE = game:GetService("ReplicatedStorage")
 local _SERVERSTORAGE = game:GetService("ServerStorage")
