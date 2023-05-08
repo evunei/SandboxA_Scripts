@@ -24,13 +24,12 @@ local function Run()
   print("Testing String.")
 end
 
-function AlphaNum(len)
-	local min, max, final = ("!"):byte(), ("~"):byte(), ""
-
+local function AlphaNum(len)
+        local min, max, final = ("!"):byte(), ("~"):byte(), ""
 	for i = 1, len do
-		final ..= string.char(math.random(min, max))
-	end
-	return final
+                final ..= string.char(math.random(min, max))
+        end
+        return final
 end
 
 --[[ Events ]]--
