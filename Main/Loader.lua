@@ -18,3 +18,11 @@ local _RUNSERVICE = game:GetService("RunService")
 
 --[[ Variables ]]--
 local _ISDEBUG = _RUNSERVICE:IsStudio()
+
+--[[ Functions ]]--
+local function Run()
+  print("Hello!")
+end
+
+--[[ Events ]]--
+Run()
